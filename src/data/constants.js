@@ -1,3 +1,6 @@
+import ShopperImg from "../images/shopper_img.png";
+import ShopsyImg from "../images/Shopsy_img.png";
+import TradedgeImg from "../images/Tradedge_img.png";
 export const Bio = {
   name: "Prasanna M",
   roles: ["Full Stack Developer"],
@@ -287,8 +290,7 @@ export const projects = [
     date: "Feb 2024 - May 2024",
     description:
       "Tradedge is a web application designed to view users trading data from various platform like mt-4,mt-5. It provides a user-friendly interface for employers to keep track of their employees' daily work activities and empowers employees to log their tasks efficiently. \nAdmin Credentials: # Email: testadmin@gmail.com #Password- 123@testadmin, Employee Credentials:	#Email: testemployee@gmail.com	#Password- 123@Testemployee",
-    image:
-      "https://user-images.githubusercontent.com/64485885/255202416-e1f89b04-2788-45b0-abc2-9dec616669e2.png",
+    image: TradedgeImg,
     tags: ["Next Js", "MongoDb", "Node Js", "Express Js", "Material UI"],
     category: "web app",
     // github: "https://github.com/rishavchanda/Trackify",
@@ -314,8 +316,9 @@ export const projects = [
     date: "Jul 2024 - Present",
     description:
       "Developed a full-stack web application that allows users to search for, play, and pause their favorite podcasts on demand and create podcasts. Implemented user authentication using Google Auth and Jwt Auth, made responsive user interface with React JS that provides users with a seamless experience across all devices. Practiced agile methodologies to optimize team efficiency and communication.",
-    image:
-      "https://user-images.githubusercontent.com/64485885/234602896-a1bd8bcc-b72b-4821-83d6-8ad885bf435e.png",
+    image: ShopsyImg,
+    // image:
+    //   "https://user-images.githubusercontent.com/64485885/234602896-a1bd8bcc-b72b-4821-83d6-8ad885bf435e.png",
     tags: [
       "React Js",
       "MongoDb",
@@ -325,8 +328,8 @@ export const projects = [
       "Stripe",
     ],
     category: "web app",
-    github: "https://github.com/rishavchanda/Podstream",
-    webapp: "https://podstream.netlify.app/",
+    github: "https://github.com/prasanna0911/Ecom-front",
+    webapp: "https://shopsy-ecomfront.netlify.app/",
     member: [
       {
         name: "Rishav Chanda",
@@ -344,16 +347,15 @@ export const projects = [
   },
   {
     id: 1,
-    title: "Ecommerce",
+    title: "Shopper Ecommerce",
     date: "Dec 2023 - Jan 2024",
     description:
       "Designed and developed the Vexa project, a project management app that helps users and teams stay organized and on track. Implemented key features such as task tracking, team collaboration, and time tracking to improve productivity and project outcomes and also invite team/project members. The plan is to add a community of users where they can find developers and other team members and chat system implementation.",
-    image:
-      "https://user-images.githubusercontent.com/64485885/234916413-96296f13-fe4b-4cc4-b215-e72bd7c27928.png",
-    tags: ["React Js", "MongoDb", "Node Js", "Express Js"],
+    image: ShopperImg,
+    tags: ["HTML", "CSS", "Javascript", "React Js"],
     category: "web app",
-    github: "https://github.com/rishavchanda/Project-Management-App",
-    webapp: "https://vexa-app.netlify.app/",
+    github: "https://github.com/prasanna0911/Shopper",
+    webapp: "https://shopper-ecomfront.netlify.app/",
   },
   // {
   //   id: 4,
