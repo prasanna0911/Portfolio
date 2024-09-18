@@ -20,6 +20,9 @@ import Prasanna from "../../images/HeroImage.jpg";
 import prof from "../../images/profile.jpg";
 import Typewriter from "typewriter-effect";
 import { Bio } from "../../data/constants";
+// import ProfileImg from "../../images/Profile3.jpg";
+import ProfileImg from "../../images/Profile2.jpg";
+// import ProfileImg from "../../images/Profile1.jpg";
 
 const HeroSection = () => {
   return (
@@ -52,7 +55,7 @@ const HeroSection = () => {
           </HeroLeftContainer>
 
           <HeroRightContainer id="Right">
-            <Img src={Prasanna} alt="hero-image" />
+            <Img src={ProfileImg} alt="hero-image" />
           </HeroRightContainer>
         </HeroInnerContainer>
       </HeroContainer>
