@@ -4,7 +4,21 @@ import TradedgeImg from "../images/Tradedge_img.png";
 import JlvmImg from "../images/jlvm_logo.jfif";
 import SacsImg from "../images/Sacs_logo.jpg";
 import PHSSImg from "../images/PHSS_logo.jfif";
-import ProfileImg from "../images/Profile1.jpg";
+import ProfileImg from "../images/Profile2.jpg";
+
+const Prasanna = {
+  name: "Prasanna M",
+  img: ProfileImg,
+  linkedin: "https://www.linkedin.com/in/prasanna0911/",
+  github: "https://github.com/prasanna0911/",
+};
+
+const Ashik = {
+  name: "Mohammadhu Ashik",
+  img: "https://avatars.githubusercontent.com/u/64485885?v=4",
+  linkedin: "https://www.linkedin.com/in/mohamadhuashik/",
+  github: "https://github.com/MohamadhuAshik/",
+};
 export const Bio = {
   name: "Prasanna M",
   roles: ["Full Stack Developer"],
@@ -185,11 +199,10 @@ export const experiences = [
   {
     id: 0,
     img: JlvmImg,
-    // img: "https://firebasestorage.googleapis.com/v0/b/flexi-coding.appspot.com/o/neurobit.jpeg?alt=media&token=1cacbb7b-e5ea-4efb-9b3d-f5a31b9564ad",
     role: "Frontend Developer",
     company: "JLVM Tech solutions",
     date: "Feb 2024 - Present",
-    desc: "Working on the frontend of the web application using ReactJS, Redux, and Material UI.",
+    desc: "Working on the frontend of the web application using ReactJS and Material UI.",
     skills: ["ReactJS", "NodeJs", "Material UI", "HTML", "CSS", "JavaScript"],
     // doc: "https://firebasestorage.googleapis.com/v0/b/buckoid-917cf.appspot.com/o/Screenshot%20from%202023-05-28%2023-20-46.png?alt=media&token=5570f995-e8f4-4f12-bb2f-73bcf4b20730",
   },
@@ -295,36 +308,21 @@ export const projects = [
     title: "Tradedge",
     date: "Feb 2024 - May 2024",
     description:
-      "Tradedge is a web application designed to view users trading data from various platform like mt-4,mt-5. It provides a user-friendly interface for employers to keep track of their employees' daily work activities and empowers employees to log their tasks efficiently. \nAdmin Credentials: # Email: testadmin@gmail.com #Password- 123@testadmin, Employee Credentials:	#Email: testemployee@gmail.com	#Password- 123@Testemployee",
+      "Tradedge is a comprehensive web application that consolidates users' trading data from multiple platforms such as MT4 and MT5. It features a Playbook section, offering valuable strategies and risk management techniques for traders. Users can manage the visibility of their trading data with private/public toggle settings for each account, providing greater control over profile privacy. \nAdmin Credentials: # Email: testadmin@gmail.com #Password- 123@testadmin",
     image: TradedgeImg,
     tags: ["Next Js", "MongoDb", "Node Js", "Express Js", "Material UI"],
     category: "web app",
     // github: "https://github.com/rishavchanda/Trackify",
     webapp: "https://tradedge.jlvmts.in/",
-    member: [
-      {
-        name: "Prasanna M",
-        img: "https://avatars.githubusercontent.com/u/64485885?v=4",
-        linkedin: "https://www.linkedin.com/in/prasanna0911/",
-        github: "https://github.com/prasanna0911/",
-      },
-      {
-        name: "Mohammadhu Ashik",
-        img: "https://avatars.githubusercontent.com/u/100614635?v=4",
-        linkedin: "https://www.linkedin.com/in/mohamadhuashik/",
-        github: "https://github.com/MohamadhuAshik/",
-      },
-    ],
+    member: [Prasanna, Ashik],
   },
   {
     id: 0,
     title: "Shopsy Ecommerce",
     date: "Jul 2024 - Present",
     description:
-      "Developed a full-stack web application that allows users to search for, play, and pause their favorite podcasts on demand and create podcasts. Implemented user authentication using Google Auth and Jwt Auth, made responsive user interface with React JS that provides users with a seamless experience across all devices. Practiced agile methodologies to optimize team efficiency and communication.",
+      "The Shopsy Ecommerce platform provides comprehensive product listings with detailed descriptions, images, and pricing. It enables users to seamlessly add items to their cart and complete purchases through a secure, streamlined checkout process. The platform also allows users to create accounts, track their orders, and manage their profiles and preferences, ensuring a personalized shopping experience.",
     image: ShopsyImg,
-    // image:
-    //   "https://user-images.githubusercontent.com/64485885/234602896-a1bd8bcc-b72b-4821-83d6-8ad885bf435e.png",
     tags: [
       "React Js",
       "MongoDb",
@@ -336,27 +334,14 @@ export const projects = [
     category: "web app",
     github: "https://github.com/prasanna0911/Ecom-front",
     webapp: "https://shopsy-ecomfront.netlify.app/",
-    member: [
-      {
-        name: "Rishav Chanda",
-        img: "https://avatars.githubusercontent.com/u/64485885?v=4",
-        linkedin: "https://www.linkedin.com/in/rishav-chanda-b89a791b3/",
-        github: "https://github.com/rishavchanda/",
-      },
-      {
-        name: "Upasana Chaudhuri",
-        img: "https://avatars.githubusercontent.com/u/100614635?v=4",
-        linkedin: "https://www.linkedin.com/in/upasana-chaudhuri-2a2bb5231/",
-        github: "https://github.com/upasana0710",
-      },
-    ],
+    member: [Prasanna, Ashik],
   },
   {
     id: 1,
     title: "Shopper Ecommerce",
     date: "Dec 2023 - Jan 2024",
     description:
-      "Designed and developed the Vexa project, a project management app that helps users and teams stay organized and on track. Implemented key features such as task tracking, team collaboration, and time tracking to improve productivity and project outcomes and also invite team/project members. The plan is to add a community of users where they can find developers and other team members and chat system implementation.",
+      "Developed a fully responsive, static e-commerce website using React.js. The site features a sleek and modern design optimized for various devices, ensuring a seamless shopping experience across desktops, tablets, and mobile devices. Users can browse through a variety of products on the products page, view detailed information about individual items, and manage their selections in the cart page.",
     image: ShopperImg,
     tags: ["HTML", "CSS", "Javascript", "React Js"],
     category: "web app",
