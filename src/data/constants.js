@@ -5,6 +5,9 @@ import JlvmImg from "../images/jlvm_logo.jfif";
 import SacsImg from "../images/Sacs_logo.jpg";
 import PHSSImg from "../images/PHSS_logo.jfif";
 import ProfileImg from "../images/Profile2.jpg";
+import AshikImg from "../images/Ashik_profile.jpg";
+import GitImg from "../images/GitImg.png";
+import PostmanImg from "../images/Postman.webp";
 
 const Prasanna = {
   name: "Prasanna M",
@@ -15,7 +18,7 @@ const Prasanna = {
 
 const Ashik = {
   name: "Mohammadhu Ashik",
-  img: "https://avatars.githubusercontent.com/u/64485885?v=4",
+  img: AshikImg,
   linkedin: "https://www.linkedin.com/in/mohamadhuashik/",
   github: "https://github.com/MohamadhuAshik/",
 };
@@ -23,14 +26,15 @@ export const Bio = {
   name: "Prasanna M",
   roles: ["Full Stack Developer"],
   description:
-    "I am a motivated and versatile individual, always eager to take on new challenges. With a passion for learning I am dedicated to delivering high-quality results. With a positive attitude and a growth mindset, I am ready to make a meaningful contribution and achieve great things.",
+    "I am a motivated and versatile full stack developer with a passion for front-end development. Eager to take on new challenges, I strive to deliver high-quality, responsive web applications. With a growth mindset and dedication to continuous learning, I’m ready to contribute meaningfully and achieve impactful results.",
+  // "I am a passionate full stack developer with a strong focus on front-end development. My expertise lies in building intuitive, responsive user interfaces using React.js, while I also bring solid back-end experience with Node.js, Express.js, and MongoDB. With a keen eye for detail and a drive for creating seamless user experiences, I love solving complex problems and delivering dynamic, high-performance web applications.",
   github: "https://github.com/prasanna0911",
   resume:
-    "https://drive.google.com/file/d/14-koVaXeopjdWK-G4z-q6N_XUyfaCEVj/view?usp=drive_link",
+    "https://drive.google.com/file/d/1egT2A9HTMZv2cPHQALI5W2ctcx99e2tW/view?usp=drive_link",
   linkedin: "https://www.linkedin.com/in/prasanna0911/",
-  twitter: "https://twitter.com/RishavChanda",
-  insta: "https://www.instagram.com/rishav_chanda/",
-  facebook: "https://www.facebook.com/rishav.chanda.165/",
+  // twitter: "https://twitter.com/RishavChanda",
+  // insta: "https://www.instagram.com/rishav_chanda/",
+  // facebook: "https://www.facebook.com/rishav.chanda.165/",
 };
 
 export const skills = [
@@ -132,8 +136,7 @@ export const skills = [
     skills: [
       {
         name: "Git",
-        image:
-          "https://camo.githubusercontent.com/fbfcb9e3dc648adc93bef37c718db16c52f617ad055a26de6dc3c21865c3321d/68747470733a2f2f7777772e766563746f726c6f676f2e7a6f6e652f6c6f676f732f6769742d73636d2f6769742d73636d2d69636f6e2e737667",
+        image: GitImg,
       },
       {
         name: "GitHub",
@@ -157,8 +160,7 @@ export const skills = [
       },
       {
         name: "Postman",
-        image:
-          "https://camo.githubusercontent.com/93b32389bf746009ca2370de7fe06c3b5146f4c99d99df65994f9ced0ba41685/68747470733a2f2f7777772e766563746f726c6f676f2e7a6f6e652f6c6f676f732f676574706f73746d616e2f676574706f73746d616e2d69636f6e2e737667",
+        image: PostmanImg,
       },
       // {
       //   name: "Adobe XD",
